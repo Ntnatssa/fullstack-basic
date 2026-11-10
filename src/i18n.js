@@ -1,0 +1,75 @@
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+
+i18n.use(initReactI18next).init({
+  resources: {
+    pt: {
+      translation: {
+        titulo: "Meu Primeiro Projeto",
+        descricao: "Preparando portfólio para vagas home office.",
+        dadosApiTitulo: "Dados da API Node.js:",
+        destino: "Destino:",
+        projetosFinalizados: "Projetos finalizados:",
+        statusConexao: "Status:",
+        conectando: "Conectando ao servidor...",
+        placeholderNome: "Nome da meta ou freela",
+        placeholderValor: "Valor (R$)",
+        totalAcumulado: "Total Acumulado:",
+        btnAdicionar: "Adicionar",
+        projetosCadastradosTitulo: "Projetos cadastrados:",
+        semProjetos: "Nenhum projeto cadastrado ainda.",
+        btnEditar: "Editar",
+        btnSalvar: "Salvar",
+        btnCancelar: "Cancelar",
+        btnExcluir: "Excluir",
+      },
+    },
+    en: {
+      translation: {
+        titulo: "My First Project",
+        descricao: "Building a portfolio for remote jobs.",
+        dadosApiTitulo: "Node.js API Data:",
+        destino: "Destination:",
+        projetosFinalizados: "Completed projects:",
+        statusConexao: "Status:",
+        conectando: "Connecting to server...",
+        placeholderNome: "Goal or freelance project",
+        placeholderValor: "Amount ($)",
+        totalAcumulado: "Total Accumulated:",
+        btnAdicionar: "Add",
+        projetosCadastradosTitulo: "Registered projects:",
+        semProjetos: "No projects registered yet.",
+        btnEditar: "Edit",
+        btnSalvar: "Save",
+        btnCancelar: "Cancel",
+        btnExcluir: "Delete",
+      },
+    },
+    es: {
+      translation: {
+        titulo: "Mi Primer Proyecto",
+        descricao: "Preparando portafolio para empleos remotos.",
+        dadosApiTitulo: "Datos de la API Node.js:",
+        destino: "Destino:",
+        projetosFinalizados: "Proyectos finalizados:",
+        statusConexao: "Estado:",
+        conectando: "Conectando con el servidor...",
+        placeholderNome: "Nombre de la meta o trabajo",
+        placeholderValor: "Valor (€)",
+        totalAcumulado: "Total Acumulado:",
+        btnAdicionar: "Añadir",
+        projetosCadastradosTitulo: "Proyectos registrados:",
+        semProjetos: "No hay proyectos registrados todavía.",
+        btnEditar: "Editar",
+        btnSalvar: "Guardar",
+        btnCancelar: "Cancelar",
+        btnExcluir: "Eliminar",
+      },
+    },
+  },
+  lng: "pt",
+  fallbackLng: "pt",
+  interpolation: { escapeValue: false },
+});
+
+export default i18n;
