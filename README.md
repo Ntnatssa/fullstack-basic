@@ -1,16 +1,37 @@
-# React + Vite
+# 🚀 Gestor de Metas & Projetos Fullstack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web Fullstack desenvolvida para planeamento financeiro e gestão de projetos/metas de trabalho remoto, concebida com suporte a múltiplos idiomas e persistência em base de dados relacional.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tecnologias Utilizadas
 
-## React Compiler
+### Frontend
+- **React.js** (com **Vite**)
+- **JavaScript (ES6+)**
+- **i18next & react-i18next** (Internacionalização em PT-BR, EN e ES)
+- **CSS Inline / Vanilla**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Backend
+- **Node.js**
+- **Express.js** (API RESTful)
+- **better-sqlite3** (Base de dados SQLite em disco)
+- **CORS** (Comunicação segura entre portas)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Funcionalidades
+
+- [x] **CRUD Completo:** Criação, Leitura, Edição e Remoção de metas/projetos.
+- [x] **Totalizador Dinâmico:** Cálculo em tempo real do valor financeiro acumulado.
+- [x] **Internacionalização (i18n):** Alternância instantânea entre 3 idiomas (Português, Inglês e Espanhol).
+- [x] **Persistência de Dados:** Gravação permanente das informações num ficheiro local SQLite.
+
+---
+
+## 📦 Como Executar o Projeto Localmente
+
+### 1. Clonar o repositório
+```bash
+git clone [https://github.com/Ntnatssa/fullstack-basic.git](https://github.com/Ntnatssa/fullstack-basic.git)
+cd fullstack-basic
